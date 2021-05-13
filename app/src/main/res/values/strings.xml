@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CAT HOUSE</string>
+    <string name="cat_image">A cat image</string>
+
+    <string name="Fan_Off">Fan: Off</string>
+    <string name="Fan_On">Fan: On</string>
+    <string name="Led_Off">Led: Off</string>
+    <string name="Led_On">Led: On</string>
+    <string name="Pump_Off">Pump: Off</string>
+    <string name="Pump_On">Pump: On</string>
+    
+    <string name="Header_UID">UID</string>
+    <string name="Header_Food">Food</string>
+    <string name="Header_Temperature">Temperature</string>
+    <string name="Header_Water">Water</string>
+</resources>
