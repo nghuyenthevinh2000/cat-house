@@ -2,49 +2,49 @@ package com.first_ulti.iot_android;
 
 public class DataObj{
 
-    private String receive_time;
-    private Double temperature;
-    private Double water;
-    private Double food;
+    private Integer food;
+    private Integer temperature;
+    private Integer water;
+    private Integer counter;
 
     public DataObj(){}
 
-    public DataObj(String receive_time, Double temperature, Double water, Double food){
-        this.receive_time = receive_time;
+    public DataObj(Integer food, Integer temperature, Integer water, Integer counter){
+        this.counter = counter;
         this.temperature = temperature;
         this.water = water;
         this.food = food;
     }
 
-    public void setReceive_time(String receive_time) {
-        this.receive_time = receive_time;
+    public void setCounter(Integer counter) {
+        this.counter = counter;
     }
 
-    public void setTemperature(Double temperature) {
+    public void setTemperature(Integer temperature) {
         this.temperature = temperature;
     }
 
-    public void setWater(Double water) {
+    public void setWater(Integer water) {
         this.water = water;
     }
 
-    public void setFood(Double food) {
+    public void setFood(Integer food) {
         this.food = food;
     }
 
-    public String getReceive_time(){
-        return this.receive_time;
+    public Integer getCounter() {
+        return this.counter;
     }
 
-    public Double getTemperature(){
+    public Integer getTemperature(){
         return this.temperature;
     }
 
-    public Double getWater(){
+    public Integer getWater(){
         return this.water;
     }
 
-    public Double getFood() {
+    public Integer getFood() {
         return this.food;
     }
 }

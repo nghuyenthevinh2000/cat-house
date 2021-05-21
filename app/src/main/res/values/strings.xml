@@ -8,9 +8,17 @@
     <string name="Led_On">Led: On</string>
     <string name="Pump_Off">Pump: Off</string>
     <string name="Pump_On">Pump: On</string>
-    
-    <string name="Header_UID">UID</string>
+
+    <string name="Header_Date">Date</string>
     <string name="Header_Food">Food</string>
-    <string name="Header_Temperature">Temperature</string>
+    <string name="Header_Temperature">Temp</string>
     <string name="Header_Water">Water</string>
+
+    <string name="email_input">Email:</string>
+    <string name="password_input">Password:</string>
+    <string name="email_hint">your email address</string>
+    <string name="password_hint">password</string>
+    <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
